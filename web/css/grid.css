@@ -16,7 +16,7 @@
 	display: table;
 }
 
-.container:after:{
+.container:after{
 	clear: both;
 }
 /*espaçamento entre grid*/
