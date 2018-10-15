@@ -147,3 +147,24 @@ margin: 13px auto 10px;
 	margin-bottom: 25px;
 	font-weight: bold;
 }
+
+/* Portifolio*/
+
+.portifolio{
+	width: 100%;
+	background-color: #1e2d32;
+	padding: 40px 0;
+}
+
+.portifolio .subtitulo{
+	color: #f9cd02;
+}
+
+.portifolio .subtitulo:after {
+	background: #f9cd02;
+	margin-bottom: 40px;
+}
+
+.portifolio .call p{
+	color: #fff;
+}
