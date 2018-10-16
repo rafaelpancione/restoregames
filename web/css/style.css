@@ -88,7 +88,7 @@ margin: 13px auto 10px;
 
 .quote{
 	color: #fff;
-	max-width: 300px;
+	max-width: 600px;
 	margin: 0 auto;
 	margin-top: 14px;
 	font-weight: bold;
@@ -149,6 +149,7 @@ margin: 13px auto 10px;
 
 /* Portifolio*/
 
+
 .portifolio{
 	width: 100%;
 	background-color: #1e2d32;
@@ -156,11 +157,11 @@ margin: 13px auto 10px;
 }
 
 .portifolio .subtitulo{
-	color: #f9cd02;
+	color: #fff;
 }
 
 .portifolio .subtitulo:after {
-	background: #f9cd02;
+	background: #fff;
 	margin-bottom: 40px;
 }
 
@@ -178,4 +179,67 @@ margin: 13px auto 10px;
 .qualidade img{
 	margin-top: 40px;
 	margin-bottom: 20px;
+}
+
+.qualidade p{
+	line-height: 20px;
+	padding-top: 20px;
+}
+/*final*/
+
+.final{
+	width: 100%;
+	height: 380px;
+	background: url("../img/banner-final.png") no-repeat center;
+	background-size: cover;
+	text-align: center;
+	padding-top: 105px;
+}
+
+.quote-final{
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 20px;
+  color: #fff;
+  font-style: italic;
+  text-shadow: 2px 2px 15px #000;
+  margin-bottom: 20px;
+}
+
+.cite{
+	color: #fff;
+	text-align: right;
+	padding-right: 190px;
+	text-shadow: 2px 2px 15px #000;
+}
+
+/*social*/
+
+.social{
+	width: 100%;
+	background-color: #1e2d32;
+	text-align: center;
+}
+
+.social .subtitulo {
+ 	color: #fff;
+ 	margin-top: 30px;
+}
+
+.social .subtitulo:after {
+	background: #fff;
+}
+
+.social img{
+	padding: 30px;
+}
+
+.rodape{
+	background-color: #f9cd02;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	font-weight: bold;
+	padding: 30px;
+	font-size: 18px;
 }
