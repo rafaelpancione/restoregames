@@ -198,13 +198,18 @@ img{
 }
 
 .qualidade img{
-	margin-top: 40px;
+	padding-top: 20px;
 	margin-bottom: 20px;
+	margin: 0 auto;
 }
 
 .qualidade p{
 	line-height: 20px;
 	padding-top: 20px;
+}
+
+.qualidade .call p{
+	padding-top: 0px;
 }
 /*final*/
 
@@ -229,8 +234,8 @@ img{
 
 .cite{
 	color: #fff;
+	padding-right: 180px;
 	text-align: right;
-	padding-right: 190px;
 	text-shadow: 2px 2px 15px #000;
 }
 
@@ -252,7 +257,8 @@ img{
 }
 
 .social img{
-	padding: 30px;
+	padding: 10px 0 20px 0;
+	margin: 0 auto;
 }
 
 .rodape{
@@ -587,7 +593,10 @@ margin: 13px auto 10px;
 @media only screen and (min-width: 768px) and (max-width: 959px){
 
 
-
+.cite{
+	padding-right: 100px;
+	text-align: right;
+}
 }
 
 @media only screen and (max-width: 767px){
@@ -623,6 +632,15 @@ margin: 13px auto 10px;
 
 .intro{
 	margin-top: 0px;
+}
+
+.subtitulo:after {
+width: 300px;
+}
+
+.cite{
+	padding-right: 0px;
+	text-align: center;
 }
 
 }
