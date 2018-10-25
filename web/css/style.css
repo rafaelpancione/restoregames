@@ -194,8 +194,12 @@ img{
 /*qualidade*/
 
 .qualidade{
-	padding: 40px 0;
+	padding: 0 0 40px 0;
 	text-align: center;
+}
+
+.qualidade h2{
+	padding-top: 20px;
 }
 
 .qualidade img{
@@ -549,7 +553,7 @@ margin: 13px auto 10px;
 .form-contato{
 	padding-right: 60px; 
 }
-}
+
 
 .form-contato label{
 	display: block;
