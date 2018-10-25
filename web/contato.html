@@ -35,15 +35,25 @@
 	</section>
 
 	    <section class="contato container">
-	    		<form id="form_contato" class="form-contato grid-8">
+	    		<!--form envio php!-->
+	    		<form id="form_contato" action="enviar.php" method="post" name="form" class="formphp form-contato grid-8">
 	    			<label for="nome">Nome:</label>
-	    			<input type="text" id="nome">
+	    			<input id="nome" type="text" name="nome">
 	    			<label for="email">E-mail:</label>
-	    			<input type="text" id="email">
-	    			<label for="espec">Especificações:</label>
-	    			<textarea id="mensagem"></textarea>
-	    			<button type="submit" class="btn btn-preto">Enviar</button>
+	    			<input id="email" type="text" name="email">
+
+	    			<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+	    			<input type="text" class="nao-aparece" name="leaveblank">
+	    			<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+	    			<input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+	    			<label for="espec">Mensagem:</label>
+	    			<textarea class="campo-msg" name="mensagem" id="mensagem"></textarea>
+
+	    			<button id="enviar" type="submit" name="enviar" class="btn btn-preto">Enviar</button>
 	    		</form>
+	    		<!-- ----------- !-->
+
 	    		<div class="contato-dados grid-8">
 	    			<div class="email">
 	    			<h3>E-mail</h3>
